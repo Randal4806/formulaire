@@ -1,0 +1,10 @@
+.btn-primary:focus{
+        background-color: #444;
+        color: white;
+        width: 170px;
+}
+.btn-secondary:focus{
+    background-color: blue;
+    color:white;
+    width: 170px;
+}

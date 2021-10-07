@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>formulaire focus</title>
+</head>
+<body>
+  <div class="container-fluid" >
+    <form action="traitement.php" method="POST" id="myForm">
+        <div class="row">
+            <div class="col-12 col-md-5 ">
+            <img src="image.jpg" alt="" class="img-fluid" style="height:100%;">  
+            </div>
+       <div class="col col-md-7">
+
+       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <a href="#" style="text-decoration: none;padding-top: 20px;">already have an accunt ?</a>
+        <button class="btn btn-secondary" type="button" style="border-radius: 30px;border: 1px;width: 200px;height: 50px;padding-top: 10px;margin-top: 10px;">sign in</button>
+      </div>
+    <h1>Welcome to focus!</h1>
+    <p><small>register your accunt</small></p>
+    <div class="mb-3 my-4">
+     <label for="exampleInputtext1" class="form-label" id="name">name</label>
+     <input type="text" class="form-control" name="exampleInputtext1" id="exampleInputtext1" aria-describedby="textHelp">
+     <span id="error"></span>
+     <div id="emailHelp" class="form-text"></div>
+</div>
+  <div class="mb-3 my-4">
+    <label for="exampleInputEmail1" class="form-label"  id="mail">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <span id="error2"></span>
+    <div id="emailHelp" class="form-text"></div>
+  </div>
+  <div class="mb-3 my-4">
+    <label for="exampleInputPassword1" class="form-label" id="pasword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+    <span id="error3"></span>
+    <br><br>
+
+    <div class="mb-3 my-4">
+      <label for="exampleInputPassword1Confirmation" class="form-label" id="pasword1">confirmer votre Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1Confirmation">
+      <span id="error4"></span>
+      <br><br>
+    <button type="submit" class="btn btn-primary mx-3 my-4" id="login" style="width: 200px;height: 50px; border-radius: 30px;">login</button>
+  </div>
+     <div class="mb-3 my-4 "style="display:flex;">
+       <p class="bm-3"><small>create accunt with</small></p>
+        <img src="facebook-circle-logo-24.png" alt="" width="40px" height="40px" class="bm-3 mx-3">
+        <img src="lindin.jfif" alt="" width="40px" height="40px" class="bm-3 mx-3">
+        <img src="google.jfif" alt="" width="40px" height="40px" class="bm-3">
+    </div>
+</form>
+            </div>
+        </div>
+    </div>
+    
+
+<script src="script.js">
+</script>
+</body>
+</html>
